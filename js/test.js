@@ -40,19 +40,8 @@
 // alert(total);
 // alert(number);
 
-var Person=new Object();
-Person.name="苏景阳";
-Person.age=27;
-Person.walk=function(){
-    alert("苏景阳在走路");
-}
-
-let yaoming=new Person();
-
-
-person.walk();
-
-yaoming.walk();
+//内建对象，JavaScript自带的对象。
+//宿主对象，浏览器提供的对象。
 
 
 
