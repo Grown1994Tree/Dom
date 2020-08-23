@@ -2,14 +2,20 @@
     <head>
         <meta charset="utf-8"/>
         <title>imageGallery</title>
+        <link rel="stylesheet" href="./style/layout.css" />
     </head>
     <body>
         <h1>Snapshots</h1>
         <ul>
-            <li><a href="./imgs/01.jpg" title="cats">cats</a></li>
-            <li><a href="./imgs/02.png" title="plane">plane</a></li>
-            <li><a href="./imgs/03.png" title="drums">drums</a></li>
-            <li><a href="./imgs/04.png" title="car">car</a></li>
+            <!--return false;阻止href跳转-->
+            <li><a href="./imgs/01.jpg" title="cats" class="nopopup">cats</a></li>
+            <li><a href="./imgs/02.png" title="plane" class="nopopup">plane</a></li>
+            <li><a href="./imgs/03.png" title="drums" class="nopopup">drums</a></li>
+            <li><a href="./imgs/04.png" title="car" class="nopopup">car</a></li>
+            <li><a href="./imgs/05.jpg" title="outbrower" class="popup">hile</a></li>
         </ul>
+        <img src="" alt="my img gallery" id="placeholder"/>
+        <p id="description">Choose which images</p>
+        <script src="./js/showPic.js"></script>
     </body>
 </html>
