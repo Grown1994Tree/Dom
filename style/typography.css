@@ -1,0 +1,10 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+abbr{
+    text-decoration: none;
+    font-style: normal;
+    border: 0;
+}

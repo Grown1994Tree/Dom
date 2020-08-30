@@ -7,5 +7,5 @@ function addLoadEvent(fun){
               old_load();
               fun();
            }
-    }
+    }  
 }
