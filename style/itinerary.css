@@ -1,0 +1,44 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+table{
+    font-size: 20px;
+    margin: auto;
+    border: 1px solid #669999;
+}
+
+caption{
+    padding: .2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+th{
+    background-color: #669999;
+    border: 1px solid #669999;
+    text-align: left;
+    color: #ffffff;
+}
+
+th,td{
+     width: 10em;
+     padding: .5em;
+}
+
+
+.intro{
+    background-color: blue;
+}
+
+
+
+.calBold{
+    font-weight: normal;
+}
+
+.addBold{
+    font-weight: bold;
+}
