@@ -13,13 +13,13 @@ function setLine(){
              }
              
              trs[j].onmouseover=function(){
-                addClass(this,"addBold","calBold","calBold");
+                addClass(this,"addBold","calBold",);
                 //   this.style.fontWeight="bold";
              }
              
              trs[j].onmouseout=function(){
                 //   this.style.fontWeight="normal"
-                addClass(this,"calBold","addBold","addBold");
+                addClass(this,"calBold","addBold");
              }
 
          }
@@ -30,12 +30,11 @@ function setLine(){
 
 }
 
-function addClass(ele,classname){    //避免添加太多class
+function addClass(){    //避免添加太多class
+    var [ele,classname,other_arr]=[...arguments];
     var ele_arr=ele.className.split(" ");
     if(arguments.length>2){
-        var [ele,classname,other_arr]=[...arguments];
         ele_arr=ele_arr.filter(str=>str!=other_arr);
-       
     }
     ele_arr.push(classname);
     console.log(ele_arr);
